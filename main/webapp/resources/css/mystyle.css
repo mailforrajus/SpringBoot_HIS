@@ -1,0 +1,456 @@
+
+.top-bar
+{
+		background:radial-gradient(circle,#FFF9F9,#FF8000);
+	/*background:#FF8000;*/
+	padding:5px 0;
+}
+
+.top-bar1
+{
+	background:radial-gradient(circle,#FFF9F9,#009cde);
+	/*background:#400000;*/
+	
+}
+.top-bar2
+{
+
+	/*background-image:url(resources/images/img.gif) no-repeat;*/
+	
+background:radial-gradient(circle,#FFF9F9,#008080);
+
+	padding:0px 0;
+	
+}
+.img
+{
+	width: 100px;
+	margin: auto;
+}
+#userRegForm
+{
+	border-radius:3px;
+	padding :15px 20px;
+	margin-top:24px;
+	margin-bottom:25px;
+	margin-right:26px;
+	-webkit-box-shadow: -5px 2px 62px 8px rgba(0,0,0,0.75);
+	-moz-box-shadow: -5px 2px 62px 8px rgba(0,0,0,0.75);
+	box-shadow: -5px 2px 62px 8px rgba(0,0,0,0.75);
+	
+}
+.loginstyle
+{
+
+
+}
+.error {
+	color: red;
+}
+
+.social
+{
+	margin-right:5px;
+}
+h3
+{
+	
+	color: white;
+}
+.info
+{
+	color:white;
+	font-size:16px;
+	padding-right: 32px;
+}
+.info_toogle
+{
+		color:white;
+	font-size:16px;
+	padding-left: 32px;
+}
+.carousel-caption
+{
+	color:white;
+	position:absolute;
+	top:35%;
+	left:-20px;
+	
+}
+b
+{
+	font-size:40px;
+	border-bottom-style:ridge;
+	font-weight:bold;
+	
+}
+.demo
+{
+	margin-top:40px;
+	color:black;
+	font-weight:lighter;
+	
+	
+}
+.logo1
+{
+	margin:10px;
+	margin-top:10px;
+	border:1px solid black;
+	border-radius:3px;
+	cursor:pointer;
+}
+.logo2
+{   
+		margin:12px;
+	margin-top:22px;
+	
+	border-radius:3px;
+	cursor:pointer;
+	/* 
+	margin-top:15px;
+	padding-left:12px;
+	cursor:pointer; */
+
+
+
+}
+.my_menu
+{
+margin-top:-1px;
+
+}
+.my_menu .navbar-default
+{	
+
+	background:radial-gradient(circle,#FFF9F9,#D1F2EB);
+	//background:#408080;
+	margin: 0px;
+	border-radius: none
+}
+ li{
+  text-align: center;
+	font-weight: lighter;
+	font-size: 16px;
+	
+}
+.my_menu .navbar-nav .active a{
+	
+background-color:#FF8000;
+color:#d6d7fc;
+margin: 0;
+}
+.my_menu .navbar-nav li a:hover{
+	background-color:#FF8000;
+	border-radius:5px;
+color:#008080;
+
+}
+.my_nav
+{
+	margin:0;
+	/*background:radial-gradient(circle,#FF8000,#FFF9F9);
+	/*background:radial-gradient(circle,#FFF9F9,#ffff80);*/
+	background:radial-gradient(circle,#FFF9F9,#008080);
+	padding:0px;	
+}
+.drop
+{
+	/*background:radial-gradient(circle,#FF8000,#FFF9F9);*/
+	background:radial-gradient(circle,#FFF9F9,#D1F2EB);
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	font-size: 16px;
+}
+.service
+{
+	margin-top:40px;
+}
+.my_course
+{
+	background:radial-gradient(circle,#009cde,#FFF9F9);
+	padding:25px 0;
+}
+.my_course_red
+{
+
+	background:radial-gradient(circle,#E8F9EC,#E8F9EC);
+	padding:10px 0;	
+}
+.my_course_red h1
+{
+color:white;
+	padding-bottom:17px;	
+}
+.companyname
+{
+	margin-top:17px;
+	font-size:20px;
+	text-align: center;
+	font-weight:lighter;
+	color:#008080;
+	/*font-variant: small-caps;
+	/*-webkit-box-shadow: -5px 2px 62px 8px rgba(0,0,0,0.75);
+	-moz-box-shadow: -5px 2px 62px 8px rgba(0,0,0,0.75);
+	box-shadow: -5px 2px 62px 8px rgba(0,0,0,0.75);*/
+	
+}
+.my_course h1
+{
+	color:white;
+	padding-bottom:17px;
+}
+.my_course .top_margin
+{
+	margin-top:35px;
+	
+}
+.client1
+{
+	
+	overflow:hidden;
+}
+.client1 img
+{
+	max-width:100%;
+	max-height:100%;
+	border-radius:3px;
+	border:1px solid black;
+	transition:all 2s;
+	cursor:pointer;
+}
+.client1:hover img{
+	transform:scale(1.2,1.2);
+}
+.footer
+
+{
+	background:#333333;
+	padding:0px 0;
+}
+.footer p{
+	margin-top:10px;
+	margin-bottom:5px;
+	
+	color:white;
+}
+.footer{
+	color:white;
+}
+.footer ul{
+list-style:none;
+margin:0;
+padding:0;
+	
+}
+.footer ul li a{
+color:white;
+	font-size:15px;
+}
+@media (max-width:603px)
+{
+.my_course [class*="col-"]
+{
+	margin-bottom:30px;
+	
+}
+}
+@media (max-width:1200px)
+{
+	.my_menu .pull-right
+	{
+		float:none !important;
+		
+}
+}
+
+	
+.login-style
+{
+	text-align: center;
+	font-size: 22px;
+	font-weight: bold;
+	font-family: sans-serif;
+	color: #ffffff;
+}
+.login
+{
+	margin-right:0px;
+
+	background:#FFF9F9;
+	padding:5px 0;
+	border-radius:4px;
+	
+}
+.image2
+{
+	padding: 5px;
+	margin: 15px;
+}
+.login-style2
+{ 
+	margin:4px;
+	text-align: right;
+
+	font-size:19x;
+	
+}
+.login-style1
+{ 
+	margin:1px;
+	text-align: left;
+	font-size: 15px;
+	
+
+}
+<style>
+body {font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box;}
+
+.input-container {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  width: 100%;
+  
+  margin-bottom: 15px;
+}
+
+.icon {
+ 
+    padding: 10px;
+  background: #8000ff;
+  color: #ffffff;
+  min-width: 50px;
+  text-align: center;
+  	margin-left:50px;
+  	border-radius: 3px;
+  	
+}
+
+.input-field {
+
+  width: 50%;
+  height:34px;
+  outline: none;
+  border-radius: 5px;
+}
+.input-fieldlogin {
+
+  width: 70%;
+  height:55px;
+  outline: none;
+  border-radius: 5px;
+}
+.input-fieldcode
+{
+
+width: 13%;
+  height:35px;
+  outline: none;
+}
+
+.input-phone
+{
+
+width: 54%;
+  height:35px;
+  outline: none;
+
+}
+
+.input-login
+{
+	margin-left:0px;
+/*text-align:center;*/
+width: 50%;
+  height:35px;
+  outline: none;
+  border-radius:3px;
+  color:black;
+
+}
+.input-login1
+{
+	margin-left:0px;
+/*text-align:center;*/
+width: 55%;
+text-align:center;
+  height:35px;
+  outline: none;
+  border-radius:3px;
+  color:black;
+
+}
+.input-field:focus {
+  border: 2px solid dodgerblue;
+}
+
+
+.btn1 {
+margin-left:142px;
+  background-color: #0080c0;
+  color: white;
+  padding: 9px 10px;
+  border: none;
+  cursor: pointer;
+  width: 20%;
+  opacity: 0.9;
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 15px;
+  border-radius: 5px;
+  text-align: center;
+}
+.btn2 {
+margin-left:62px;
+  background-color: #0080c0;
+  color: white;
+  padding: 9px 10px;
+  border: none;
+  cursor: pointer;
+  width: 22%;
+  opacity: 0.9;
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 15px;
+  border-radius: 5px;
+  text-align:center;
+  
+}
+
+
+.btn1:hover {
+  opacity: 2;
+}
+input[type=radio]
+{
+	color:blue;
+	border-radius: 1px;
+	width: 80px;
+	height: 20px;
+}
+<style>
+.pagination {
+  display: inline-block;
+}
+
+.pagination a {
+  color: black;
+  
+  padding: 8px 10px;
+  text-decoration: none;
+  border-radius: 4px;
+}
+
+.pagination a.active {
+  background-color: #ff0000;
+  color: white;
+}
+
+.pagination a:hover:not(.active) {background-color: #00ff00;}
+
+body{
+background:radial-gradient(circle,#009cde,#FFF9F9);
+}
+</style>
